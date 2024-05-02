@@ -3,14 +3,10 @@ Python environment for the course: NIGK22000U Satellite Image Processing and Ana
 
 A. Install mamba https://mamba.readthedocs.io/en/latest/installation.html
 
-B. Please run in order:
+B. Please run :
 
-1 $ mamba env create --file environment_win1.yml
-2 $ mamba env update --name tf --file environment_win2.yml
-3 $ mamba env update --name tf --file environment_win3.yml
+$ mamba env create --file environment.yml
 
 C. In case of an issue with tensorflow-estimator version run:
 
-$ mamba activate tf 
-$ pip install --upgrade tensorflow-estimator==1.15.1
-
+$ mamba activate si

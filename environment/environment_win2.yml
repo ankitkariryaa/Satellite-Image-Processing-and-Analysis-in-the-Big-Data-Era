@@ -1,9 +1,0 @@
-name: tf
-channels:
-  - pytorch
-  - nvidia
-dependencies:
-  - pytorch-cuda=11.7
-  - pytorch
-  - torchvision
-  - torchaudio
